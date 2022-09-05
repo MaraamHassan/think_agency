@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    height: 2950px;
+    font-family: "pt-sans",sans-serif;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.p1,.p11,.p111,.p1111,.p11111{
+    width: 18%;
+    height: 500px;
+float: left;border: 5px yellow double;
+margin: 1% 1%;
+}
+.clear{clear: both;}
+.container11{width: 98vw;}
+.p2,.p3{ border: 5px yellow double;
+    width: 18%;
+    height: 500px;
+ background-size: cover;
+float: left;
+margin: 5% 15%;}
+.container22{width: 100%;
+    height: 40vh;
+    background-image: url(../img/ff3ywn-1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container4{width: 100%;
+    height: 40vh;
+    background-image: url(../img/programming.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container2 .btn{ display: block;text-align: center;}
+.carousel-inner .carousel-caption {
+        background: rgba(200, 200, 200, 0.3);
+        border-radius: 7px;
+    }
+.card-header:hover{ background-color: black;}
+.card-header:hover .btn{color: white;}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: palevioletred !important;
+}
+.navbar{
+    position: fixed;
+    z-index: 15;}
+.img1{
+    width: 100%;
+    height: 350px;
+}
+.container2 h5{
+    color: white;
+text-align: center;
+}
